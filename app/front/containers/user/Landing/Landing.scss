@@ -1,0 +1,23 @@
+.movie-infos {
+    filter: brightness(1);
+    color: #E6E6E6;
+    padding-top: 100px !important;
+}
+
+.logo-img {
+    height: 14px;
+    margin-right: 5px;
+}
+
+.movie-title {
+    font-size: 16px;
+    color: white;
+}
+
+.viewed-corner {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #ec2852;
+    border-right: 50px solid transparent;
+    position: absolute;
+}

@@ -1,0 +1,27 @@
+.search-spin {
+    margin-top: 50%;
+}
+
+.no-movie-available {
+    padding-top: 60px;
+    color: #ec2852;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.ant-spin-dot-spin i {
+    background-color: #ec2852;
+}
+
+.loading-row {
+    padding-top: 10vh;
+}
+
+.viewed-corner {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #ec2852;
+    border-right: 50px solid transparent;
+    position: absolute;
+}

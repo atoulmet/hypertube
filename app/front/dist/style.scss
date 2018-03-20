@@ -1,0 +1,103 @@
+@import '~antd/dist/antd.css';
+@import './ant-lib-override';
+@import '../components/Header/Header.scss';
+@import '../components/Footer/Footer.scss';
+@import '../components/NotFound/NotFound.scss';
+@import '../containers/auth/Landing/Landing.scss';
+@import '../containers/user/Landing/Landing.scss';
+@import '../containers/user/Profile/Profile.scss';
+@import '../containers/user/Search/Search.scss';
+@import '../containers/user/Movies/Movies.scss';
+@import '../containers/auth/Registration/Registration.scss';
+@import '../containers/auth/ResetPassword/ResetPassword.scss';
+@import '../containers/user/Movies/Comments/Comments.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+
+$primaryColor: #ec2852;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: $primaryColor;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.ant-layout-content {
+
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.6s ease-in-out;
+
+    .ant-row.anonymous {
+      padding-top: 260px;
+
+      h1, h2, h3, h4 {
+          padding-bottom: 16px;
+          text-align: center;
+      }
+      p {
+        color: white;
+      }
+      .ant-btn {
+          width: 100%;
+      }
+    }
+}
+
+/**
+ * Landing page (as guest)
+ */
+
+.register-btn {
+    text-align: center;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.movie-thumbnail {
+    height: 400px;
+    width: 270px;
+    border: 2px solid #151515;
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie-infos {
+    display: inline-block;    
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    // visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.movie-infos:hover {
+    opacity: 1;
+    // visibility: visible;
+}
+
+.movie-infos span {
+    display: block;
+    width: inherit;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

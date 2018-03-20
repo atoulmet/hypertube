@@ -1,0 +1,33 @@
+.user-profile-picture {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto !important;
+}
+
+.profile-page {
+    color: white;
+}
+
+.profile-picture-container {
+    padding: 5vh;
+}
+
+.user-infos {
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.user-names {
+    padding-bottom: 5vh;
+}
+
+.user-details {
+    font-family: 'Roboto', sans-serif;
+    color: #D8D8D8;
+    font-size: 16px;
+}

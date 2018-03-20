@@ -1,0 +1,18 @@
+$gutterSize: 15px;
+$doubleGutter: 30px;
+
+.header {
+    height: 80px;
+    text-align: right;
+
+    &-dropdown-wrapper {
+        text-align: right;
+    }
+    &-link-wrapper {
+        text-align: right;
+    }
+}
+
+.logotype {
+    width: 32px;
+}

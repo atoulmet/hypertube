@@ -1,0 +1,9 @@
+.DS_STORE
+app/front/node_modules
+app/front/yarn.lock
+app/front/config/secret.js
+app/back/node_modules
+app/back/yarn.lock
+app/back/src/config/secret.js
+app/lab/streaming/node_modules/
+app/back/files/

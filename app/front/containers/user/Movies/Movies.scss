@@ -1,0 +1,93 @@
+$primaryColor: #FF3636;
+
+.movie-page {
+    padding: 30px;
+    color: white;
+}
+
+.movie-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid #ec2852;
+    background-color: black;
+}
+
+.movie-video {
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+}
+
+.movie-placeholder-btn {
+    height: 128px;
+    width: 128px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.hoteldumas.com/wp-content/uploads/2017/03/play-icon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.movie-base-details-wrapper {
+    padding: 0;
+}
+
+.movie-details {
+    font-family: 'Roboto', sans-serif;
+}
+
+.movie-views {
+    text-align: left;
+
+    &-wrapper {
+        margin-top: 5px;
+        margin-bottom: 15px;        
+    }
+}
+
+.movie-duration {
+    text-align: right;
+}
+
+.movie-details-wrapper {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.movie-synopsis {
+    font-weight: lighter;
+}
+
+.movie-casting {
+    font-weight: lighter;
+}
+
+.movie-genre {
+    font-weight: lighter;
+}
+
+.movie-label {
+    color: #ec2852;
+    font-weight: 500;
+}
+
+.movie-page {
+    color: white;
+}
+
+.video-loading-icon {
+    position: absolute;
+    color: $primaryColor;
+    font-size: 4em;
+}
+
+.spin-col {
+    padding-top:20vh;
+}

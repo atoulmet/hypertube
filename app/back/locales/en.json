@@ -1,0 +1,12 @@
+{
+    "Signin error username": "Invalid username",
+    "Signin error password": "Invalid password",
+    "Register error username email": "%s or %s is already used",
+    "Forgot password error": "You must provide an email to receive a reinitialization link",
+    "Update username error duplicate": "This username is already taken",
+    "Update username error length": "Your user name must be at least 6 characters long",
+    "Update email error": "Invalid email format",
+    "Update password error": "Invalid password format. Make sure to use at least one digit !",
+    "Update email duplicate": "This email is already used",
+    "Update profile error": "Make sure to respect the minimum and maximum length allowed"
+}

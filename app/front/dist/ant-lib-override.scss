@@ -1,0 +1,133 @@
+// Available theme variables can be found in
+// https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+
+$primaryColor: #ec2852;
+$headerColor: black;
+$headingColor: white;
+$labelColor: white;
+$backgroundColor: #232323;
+
+h1, h2, h3, h4 {
+    color: $headingColor;
+}
+
+a {
+    color: $primaryColor;
+}
+
+.ant {
+    &-btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+
+        &-primary {
+              border-color: $primaryColor;
+              background-color: $primaryColor;
+              
+              &:hover {
+                border-color: lighten($primaryColor, 20);
+                background-color: lighten($primaryColor, 2);
+          }
+        }
+    }
+    &-checkbox-wrapper {
+      color: gray;
+    }
+    &-form {
+        &-item {
+            margin-bottom: 15px;
+
+            &-label label{
+                display: none;
+                // color: $labelColor;
+            }
+        }
+    }
+    &-input {
+        font-size: 13px;        
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: #EAEAEA;
+        border-color: rgba(255, 54, 55, 0.34);
+        background-color: rgba(0, 0, 0, 0.80);
+        
+        &-prefix .anticon, &-suffix .anticon {
+            color: $primaryColor;
+        }
+    }
+    &-layout {
+        min-height: 100vh;
+        background-color: black;
+
+        &-header {
+            background-color: rgba(0, 0, 0, 0.85);
+            // background-color: $headerColor;
+        }
+        &-footer {
+            color: white;
+            background-color: $headerColor;
+        }
+        &-content {
+            height: 100%;
+            background-color: $backgroundColor;
+        }
+    }
+    &-menu {
+        &-horizontal {
+            border-bottom: 1px solid $primaryColor;
+            text-align: center;
+            background-color: black;
+        }
+    }
+    &-select {
+        // color: #EAEAEA;
+        border-color: #808080;
+
+        &-selection {
+            font-size: 13px;        
+            font-family: 'Roboto', sans-serif;
+            font-weight: lighter;
+            color: white;
+            background-color: black;
+        }
+        // background-color: #212121;
+    }
+    &-spin {
+        &-container {
+            padding: 15px;
+            border-radius: 12px;
+            background-color: rgba(0,0,0,0.2);
+        }
+        &-container .ant-list-item-meta {
+            &-title > a {
+                color: $primaryColor;
+            }
+            &-description {
+                color: white;
+            }
+        }
+    }
+}
+
+.ant-list-split .ant-list-item {
+    border-bottom: 1px solid #e8e8e830;
+}
+.ant-list-split .ant-list-item:last-child {
+    border-bottom: none;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected {
+    color: $primaryColor;
+}
+.ant-menu-horizontal > .ant-menu-item-active {
+    color: $primaryColor;
+}
+.ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu {
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+
+.primary-color {
+    color: #ec2852;
+}

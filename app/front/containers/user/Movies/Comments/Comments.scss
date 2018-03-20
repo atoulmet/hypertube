@@ -1,0 +1,22 @@
+.ant-list-item-meta-content {
+    max-width: 800px !important;
+    word-wrap : break-word!important; 
+}
+@media screen and (max-width: 1070px) {
+    .ant-list-item-meta-content {
+        max-width: 450px !important;
+        word-wrap : break-word!important; 
+    }
+}
+@media screen and (max-width: 640px) {
+    .ant-list-item-meta-content {
+        max-width: 350px !important;
+        word-wrap : break-word!important; 
+    }
+}
+@media screen and (max-width: 400px) {
+    .ant-list-item-meta-content {
+        max-width: 250px !important;
+        word-wrap : break-word!important; 
+    }
+}
